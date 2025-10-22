@@ -1,0 +1,106 @@
+{
+  "weight": {
+    "value": 4.8,
+    "unit": "KG"
+  },
+  "shipper": {
+    "contact": {
+      "name": "Michael Anderson",
+      "companyName": "TechVault Electronics Inc.",
+      "email": "shipping@techvault-electronics.com",
+      "phone": "+1-650-555-0142",
+      "mobile": "+1-650-555-0198"
+    },
+    "address": {
+      "line1": "1455 Market Street, Suite 900",
+      "line2": "Logistics Department",
+      "city": "San Francisco",
+      "state": "CA",
+      "countryCode": "US",
+      "zipCode": "94103"
+    },
+    "reference": "SHIP-US-20251022-7834"
+  },
+  "consignee": {
+    "contact": {
+      "name": "Elena Popescu",
+      "companyName": "Digital Solutions SRL",
+      "email": "elena.popescu@digitalsolutions.ro",
+      "phone": "+40-21-555-8234",
+      "mobile": "+40-745-123-456"
+    },
+    "address": {
+      "line1": "Strada Aviatorilor 42",
+      "line2": "Corp B, Etaj 3",
+      "city": "Bucharest",
+      "state": "Bucuresti",
+      "countryCode": "RO",
+      "zipCode": "011863"
+    },
+    "reference": "PO-2024-RO-4521"
+  },
+  "dimensions": {
+    "length": 45.5,
+    "width": 32.0,
+    "height": 28.5,
+    "unit": "CM"
+  },
+  "packages": [
+    {
+      "dimensions": {
+        "length": 38.0,
+        "width": 26.5,
+        "height": 6.0,
+        "unit": "CM"
+      },
+      "weight": 2.4,
+      "quantity": 2,
+      "value": 1899.98
+    },
+    {
+      "dimensions": {
+        "length": 15.0,
+        "width": 12.0,
+        "height": 4.5,
+        "unit": "CM"
+      },
+      "weight": 0.35,
+      "quantity": 4,
+      "value": 479.96
+    }
+  ],
+  "customsItems": [
+    {
+      "description": "Laptop Computer - Dell XPS 15 9520",
+      "hsCode": "847130",
+      "quantity": 2,
+      "weight": 2.1,
+      "value": 1899.98,
+      "countryOfOrigin": "CN"
+    },
+    {
+      "description": "Solid State Drive - Samsung 980 PRO 1TB NVMe",
+      "hsCode": "847170",
+      "quantity": 4,
+      "weight": 0.032,
+      "value": 479.96,
+      "countryOfOrigin": "KR"
+    },
+    {
+      "description": "USB-C Power Adapter 130W",
+      "hsCode": "850440",
+      "quantity": 2,
+      "weight": 0.42,
+      "value": 119.98,
+      "countryOfOrigin": "CN"
+    }
+  ],
+  "declaredValue": {
+    "amount": 2499.92,
+    "currency": "USD"
+  },
+  "serviceType": "FedEx International Priority",
+  "specialNotes": "Handle with care - fragile electronics. Delivery requires signature. Business address - please deliver during business hours 9AM-5PM EEST.",
+  "isCod": false,
+  "codAmount": null
+}

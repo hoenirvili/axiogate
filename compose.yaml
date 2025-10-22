@@ -1,0 +1,22 @@
+services:
+  database:
+    image: postgres:latest
+    container_name: databse 
+    ports: 
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: postgres
+  faker-a:
+    image: dotronglong/faker:stable
+    container_name: faker-a
+    volumes:
+      - ./mocks/a:/app/mocks
+    ports:
+      - "3030:3030"
+  faker-b:
+    image: dotronglong/faker:stable
+    container_name: faker-b
+    volumes:
+      - ./mocks/b:/app/mocks
+    ports:
+      - "3031:3030"

@@ -1,0 +1,74 @@
+{
+    "Origin": "DXB",
+    "Destination": "USO",
+    "ProductType": "XPS",
+    "ServiceType": "NOR", //For Cash on delivery use COD. COD applicable for GCC country only.
+    "CODAmount": "0",
+    "CODCurrency": "AED",
+    "SpecialInstruction": "Test",
+    "Shipper": "Test sender Company Name",
+    "ShipperCPErson": "Test Sender Name",
+    "ShipperAddress1": "Tulip oasis 6, 6th floor",
+    "ShipperAddress2": "flat 612,",
+    "ShipperCity": "Dubai",
+    "ShipperEmail": "sender@email.com",
+    "ShipperPhone": "502009622",
+    "ShipperMobile": "502009622",
+    "ShipperRefNo": "4565165",
+    "Consignee": "Test Receiver Company Name",
+    "ConsigneeCPerson": "Test Receiver Name",
+    "ConsigneeAddress1": "Receiver Address Line 1",
+    "ConsigneeAddress2": "Receiver Address Line 2",
+    "ConsigneeCity": "AURORA",
+    "ConsigneePhone": "8008333",
+    "ConsigneeMob": "8008333",
+    "ConsigneeEmail": "receiver@email.com",
+    "ConsigneeState": "New York",
+    "ConsigneeZipCode": "10001",
+    "ConsigneeID": "",
+    "ConsigneeIDType": "",
+    "ValueOfShipment": 1686,
+    "ValueCurrency": "USD",
+    "GoodsDescription": "use, Blue, Wo",
+    "NumberofPeices": 2,
+    "Weight": 1.00,
+    "PackageRequest": [
+        {
+            "DimWidth": 10,
+            "DimHeight": 10,
+            "DimLength": 10,
+            "DimWeight": 0.2,
+            "NoofPeices": 1,
+            "ShipmentValue": 50
+        },
+        {
+            "DimWidth": 10,
+            "DimHeight": 15,
+            "DimLength": 15,
+            "DimWeight": 0.45,
+            "NoofPeices": 1,
+            "ShipmentValue": 50
+        }
+    ],
+    "ExportItemDeclarationRequest": [
+        {
+            "HSNCODE": "",
+            "ItemDesc": "Women Shirt",
+            "DimWeight": 0.1,
+            "NoofPeices": 10, //Total No of units
+            "ShipmentValue": 49, //Per unit value. example 49 per unit. so customer invoice value will be 49*10=490.
+            "CountryofOrigin": "AE"
+        },
+        {
+            "HSNCODE": "",
+            "ItemDesc": "Women Pant",
+            "DimWeight": 0.1,
+            "NoofPeices": 5, //Total No of units
+            "ShipmentValue": 25, //Per unit value. example 25 per unit. so customer invoice value will be 25*5=125.
+            "CountryofOrigin": "AE"
+        }
+    ],
+    "UserName": "123",
+    "Password": "123",
+    "AccountNo": "123"
+}

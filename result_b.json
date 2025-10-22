@@ -1,0 +1,80 @@
+{
+  "Origin": "US",
+  "Destination": "RO",
+  "ProductType": "XPS",
+  "ServiceType": "FedEx International Priority",
+  "CODAmount": "0",
+  "CODCurrency": "USD",
+  "SpecialInstruction": "Handle with care - fragile electronics. Delivery requires signature. Business address - please deliver during business hours 9AM-5PM EEST.",
+  "Shipper": "TechVault Electronics Inc.",
+  "ShipperCPErson": "Michael Anderson",
+  "ShipperAddress1": "1455 Market Street, Suite 900",
+  "ShipperAddress2": "Logistics Department",
+  "ShipperCity": "San Francisco",
+  "ShipperEmail": "shipping@techvault-electronics.com",
+  "ShipperPhone": "+1-650-555-0142",
+  "ShipperMobile": "+1-650-555-0198",
+  "ShipperRefNo": "SHIP-US-20251022-7834",
+  "Consignee": "Digital Solutions SRL",
+  "ConsigneeCPerson": "Elena Popescu",
+  "ConsigneeAddress1": "Strada Aviatorilor 42",
+  "ConsigneeAddress2": "Corp B, Etaj 3",
+  "ConsigneeCity": "Bucharest",
+  "ConsigneePhone": "+40-21-555-8234",
+  "ConsigneeMob": "+40-745-123-456",
+  "ConsigneeEmail": "elena.popescu@digitalsolutions.ro",
+  "ConsigneeState": "Bucuresti",
+  "ConsigneeZipCode": "011863",
+  "ValueOfShipment": 2499.92,
+  "ValueCurrency": "USD",
+  "GoodsDescription": "Laptop Computer - Dell XPS 15 9520",
+  "NumberofPeices": 2,
+  "Weight": 0.0048,
+  "PackageRequest": [
+    {
+      "DimWidth": 26.5,
+      "DimHeight": 6,
+      "DimLength": 38,
+      "DimWeight": 2.4,
+      "NoofPeices": 2,
+      "ShipmentValue": 1899.98
+    },
+    {
+      "DimWidth": 12,
+      "DimHeight": 4.5,
+      "DimLength": 15,
+      "DimWeight": 0.35,
+      "NoofPeices": 4,
+      "ShipmentValue": 479.96
+    }
+  ],
+  "ExportItemDeclarationRequest": [
+    {
+      "HSNCODE": "847130",
+      "ItemDesc": "Laptop Computer - Dell XPS 15 9520",
+      "DimWeight": 2.1,
+      "NoofPeices": 2,
+      "ShipmentValue": 1899.98,
+      "CountryofOrigin": "CN"
+    },
+    {
+      "HSNCODE": "847170",
+      "ItemDesc": "Solid State Drive - Samsung 980 PRO 1TB NVMe",
+      "DimWeight": 0.032,
+      "NoofPeices": 4,
+      "ShipmentValue": 479.96,
+      "CountryofOrigin": "KR"
+    },
+    {
+      "HSNCODE": "850440",
+      "ItemDesc": "USB-C Power Adapter 130W",
+      "DimWeight": 0.42,
+      "NoofPeices": 2,
+      "ShipmentValue": 119.98,
+      "CountryofOrigin": "CN"
+    }
+  ],
+  "UserName": "123",
+  "Password": "123",
+  "AccountNo": "123"
+}

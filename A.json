@@ -1,0 +1,83 @@
+{
+    "weight": {
+        "value": 1000,
+        "unit": "Grams"
+    },
+    "shipper": {
+        "contact": {
+            "name": "ABC Associates",
+            "mobileNumber": "0506356566",
+            "phoneNumber": "041234567",
+            "emailAddress": "orders@test.com",
+            "companyName": "ABC Associates"
+        },
+        "address": {
+            "line1": "Umm Rammool",
+            "city": "Dubai",
+            "countryCode": "AE",
+            "zipCode": "00000"
+        },
+        "referenceNo1": "ShipperReference1",
+        "referenceNo2": "ShipperReference2"
+    },
+    "consignee": {
+        "contact": {
+            "name": "John Doe",
+            "mobileNumber": "+919441234567",
+            "phoneNumber": "+919441234567",
+            "emailAddress": "test@test.com",
+            "companyName": "John Doe"
+        },
+        "address": {
+            "line1": "Test Address",
+            "city": "Banglore",
+            "countryCode": "IN",
+            "zipCode": "1001"
+        },
+        "referenceNo1": "ConsigneeReference1",
+        "referenceNo2": "ConsigneeReference2"
+    },
+    "dimensions": {
+        "length": 10,
+        "height": 10,
+        "width": 10,
+        "unit": "Meter"
+    },
+    "account": {
+        "number": 123
+    },
+    "productCode": "International",
+    "serviceType": "None",
+    "printType": "AWBOnly",
+    "isInsured": true,
+    "customsDeclarations": [
+        {
+            "reference": "ReferenceNumber",
+            "description": "Medicine",
+            "countryOfOrigin": "AE",
+            "weight": 1000,
+            "dimensions": {
+                "length": 10,
+                "height": 10,
+                "width": 10
+            },
+            "quantity": 1,
+            "hsCode": "3004909",
+            "value": 250
+        }
+    ],
+    "declaredValue": {
+        "amount": 250,
+        "currency": "AED"
+    },
+    "numberOfPieces": 1,
+    "referenceNumber1": "ShipmentReferenceNo1",
+    "referenceNumber2": "ShipmentReferenceNo2",
+    "referenceNumber3": "ShipmentReferenceNo3",
+    "referenceNumber4": "ShipmentReferenceNo4",
+    "specialNotes": "",
+    "remarks": "",
+    "deliveryType": "DoorToDoor",
+    "contentType": "NonDocument",
+    "isCod": false
+}

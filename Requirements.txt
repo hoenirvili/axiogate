@@ -1,0 +1,25 @@
+In file A and B are 2 accepted JSON defined bodies for POST requests to different API providers(A,B) to create a shipping request. 
+
+Based on these, create a Golang software that accepts as input:
+
+- a POST request with JSON body containing a general shipping model and transforms/maps to the models given as example that are accepted by the API providers. 
+
+- Make the software architecture and contracts in such a way that if you want to integrate with other API providers (C,D,E etc)
+not to affect functionality of the previous integrations. Number of other API providers can go up to 4000.
+
+- Save each successful request into database, its payload and to whom it was sent. API to which the request is sent (A,B,C,D etc)
+will be selected base on a query param when the POST request to the software is done.
+
+- Write the docker file and the docker compose for the solution.
+
+==================================================================================================================================================================
+
+Example: 
+/api/v1/createShipping?provider=A . 
+If instead of a specific provider example: A,B,C nothing is passed, 
+shipping request should be sent to all integrated providers in parallel.
+
+MockingEndpoints for API Providers: 
+- https://a.local/createShipping 
+- https://b.local/createShipping 
+- etc

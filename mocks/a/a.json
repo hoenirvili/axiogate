@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/v1/a"
+  },
+  "response": {
+    "statusCode": 201,
+    "body": {
+        "another":"test", 
+        "from-api": "a"
+    }
+  }
+}
